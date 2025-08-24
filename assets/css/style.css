@@ -45,6 +45,11 @@
     color: var(--color-2);
     text-decoration: none;
 }
+
+.header .inner-menu ul li a:active{
+    color: var(--color-2);
+    text-decoration: none;
+}
 /* End Header */
 
 /* Section 1 */
@@ -61,30 +66,32 @@
 
 .section-1 .inner-wrap {
     text-align: center;
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
 .section-1 .inner-title{
     color: #fff;
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 28px;
 }
 
 .section-1 .inner-des{
     color: #fff;
     margin-bottom: 28px;
+    font-size: 15px;
 }
 /* End Section 1 */
 /* Section 2 */
 .section-2{
-    margin-top: -240px;
+    margin-top: -200px;
+    margin-bottom: 100px;
 }
 .section-2 .inner-box{
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
     background-color: #fff;
     border-radius: 20px;
-    padding: 20px 30px;
+    padding: 20px 25px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -121,3 +128,185 @@
     font-size: 13px;
 }
 /* End Section 2 */
+
+/* Section 3 */
+
+.section-3 .inner-image{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-3 .inner-content .inner-title{
+    color: var(--color-text-2);
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.section-3 .inner-content .inner-des{
+    color: var(--color-text-1);
+    font-size: 16px;
+}
+
+.section-3 .hr{
+    margin:100px 0px;
+    border-bottom: 1px solid #eee;
+}
+/* End Section 3 */
+/* Section 4 */
+.section-4{
+    margin-bottom: 100px;
+}
+
+.section-4 .inner-content{
+    margin-bottom: 30px;
+}
+
+.section-4 .inner-content .inner-title{
+    color: var(--color-text-2);
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.section-4 .inner-content .inner-des{
+    color: var(--color-text-1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-4 .inner-image{
+    text-align: center;
+}
+/* End Section 4 */
+
+/* Section 5 */
+.section-5{
+    background: url(../image/work-process-bg.png) ;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.section-5 .inner-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-5 .inner-info .inner-title{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.section-5 .inner-info .inner-des{
+    font-size: 16px;
+    color: #fff;
+    width: 50%;
+}
+
+.section-5 .inner-list .inner-box{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 20px;
+    box-shadow: #ffffff36 10px 10px 0px 0px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+
+.section-5 .inner-list .inner-box:hover{
+    margin-top: -10px;
+}
+
+.section-5 .inner-box .inner-icon{
+    margin-bottom: 25px;
+}
+
+.section-5 .inner-box .inner-item-title{
+    color: var(--color-text-2);
+    font-size: 17px;
+}
+
+.section-5 .inner-box .inner-item-des{
+    color: var(--color-text-1);
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* End Section 5 */
+
+/* Section 6 */
+.section-6{
+    padding: 100px 0px;
+}
+
+.section-6 .inner-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-6 .inner-info .inner-title{
+    width: 50%;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: var(--color-text-2);
+}
+
+.section-6 .inner-info .inner-des{
+    width: 50%;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: var(--color-text-1);
+}
+
+.section-6 .inner-box{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+  
+    position: relative;
+
+}
+
+.section-6 .inner-box:hover .inner-author{
+   margin-left: 30px ;
+}
+
+.section-6 .inner-box .inner-icon{
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.section-6 .inner-box .inner-content{
+
+}
+
+.section-6 .inner-content .inner-feedback{
+    color: var(--color-text-1);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.section-6 .inner-content .inner-author{
+    margin-left: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.section-6 .inner-author .inner-name{
+    font-size: 17px;
+    color: var(--color-text-2);
+    font-weight: 400;
+}
+
+.section-6 .inner-author .inner-work{
+    font-size: 15px;
+    color: var(--color-2);
+}
+/* End Section 6 */

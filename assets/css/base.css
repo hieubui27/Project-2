@@ -18,6 +18,13 @@ a{
 
 *{
     box-sizing: border-box;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.col-xl-5{
+    flex: 0 0 calc(5/12);
+    max-width: calc(5/12);
 }
 
 /* button */
