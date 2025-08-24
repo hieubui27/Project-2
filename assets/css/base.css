@@ -46,4 +46,14 @@ a{
     background-color: var(--color-1);
     color: #fff;
 }
+
+.btn-2{
+    background-color: var(--color-1);
+    color: #fff;
+}
+
+.btn-2:hover{
+    background-color: var(--color-2);
+    color: #fff;
+}
 /* end button */
