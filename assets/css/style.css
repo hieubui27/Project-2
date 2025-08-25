@@ -16,6 +16,10 @@
     background-color: #fff;
 }
 
+.header .inner-main .inner-mobi{
+    display: none;
+}
+
 .header .inner-logo img{
     height: 30px;
     width: auto;
@@ -49,6 +53,17 @@
 .header .inner-menu ul li a:active{
     color: var(--color-2);
     text-decoration: none;
+}
+@media (max-width:991.98px) {
+    .header .inner-menu{
+        display: none;
+    }
+
+    .header .inner-main .inner-mobi{
+        display: block;
+        font-size: 24px;
+    }
+
 }
 /* End Header */
 
@@ -126,6 +141,12 @@
 .section-2 .inner-box .inner-des{
     color: var(--color-text-1);
     font-size: 13px;
+}
+@media (max-width:991.98px) {
+    .section-2{
+        margin-top: 0px;
+    }
+
 }
 /* End Section 2 */
 
@@ -215,6 +236,7 @@
     text-align: center;
     transition: all 0.3s ease 0s;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .section-5 .inner-list .inner-box:hover{
@@ -235,7 +257,12 @@
     font-size: 14px;
     margin-bottom: 0;
 }
+@media (max-width:991.98px) {
+    .section-5 .inner-info .inner-des{
+        width: 100%;
+    }
 
+}
 /* End Section 5 */
 
 /* Section 6 */
@@ -270,7 +297,7 @@
     display: flex;
     flex-direction: column;
     padding: 30px 30px;
-  
+    margin-bottom: 30px;
     position: relative;
 
 }
@@ -309,6 +336,13 @@
     font-size: 15px;
     color: var(--color-2);
 }
+
+@media (max-width:991.98px) {
+    .section-6 .inner-info .inner-des{
+        width: 100%;
+    }
+
+}
 /* End Section 6 */
 
 /* Section 7 */
@@ -344,6 +378,7 @@
     border-radius: 20px;
     padding: 40px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section-7 .inner-box .inner-pack{
@@ -397,7 +432,12 @@
     text-decoration: none;
 }
 
+@media (max-width:991.98px) {
+    .section-7 .inner-info .inner-des{
+        width: 100%;
+    }
 
+}
 /* End Section 7 */
 
 /* Section 8 */
@@ -446,6 +486,20 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width:991.98px) {
+    .section-8 .count-item{
+        margin-bottom: 30px;
+    }
+    .section-8 .count-item.decorationTop::after{
+        display: none;
+    }
+
+    .section-8 .count-item.decorationBot::after{
+        display: none;
+    }
+
+}
+
 /* End Section 8 */
 
 /* Section 9 */
@@ -477,6 +531,7 @@
 .section-9 .inner-list .inner-box{
     border-radius: 20px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section-9 .inner-box .inner-image{
@@ -514,6 +569,13 @@
     font-size: 13px;
     color: var(--color-text-1);
     margin-bottom: 30px;
+}
+
+@media (max-width:991.98px) {
+    .section-9 .inner-info .inner-des{
+        width: 100%;
+    }
+
 }
 /* End Section 9 */
 
@@ -565,6 +627,13 @@
 
 .section-10 .inner-content .inner-form .margin-bottom-30{
     margin-bottom: 30px;
+}
+
+@media (max-width:991.98px) {
+    .section-10 .inner-info .inner-des{
+        width: 100%;
+    }
+
 }
 /* End Section 10 */
 
